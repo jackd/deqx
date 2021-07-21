@@ -11,9 +11,9 @@ with open(os.path.join(os.path.dirname(__file__), "requirements.txt")) as fp:
     install_requires = fp.read().split("\n")
 
 setup(
-    name="python_pkg",  # TODO
-    description="python package template",  # TODO
-    url="https://github.com/jackd/python-pkg",  # TODO
+    name="deqx",
+    description="Deep Equilibrium Models in Jax",
+    url="https://github.com/jackd/deqx",
     author="Dominic Jack",
     author_email="thedomjack@gmail.com",
     license="Apache 2.0",

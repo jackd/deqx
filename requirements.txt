@@ -1,0 +1,2 @@
+jax
+dm-haiku >= 0.0.2
